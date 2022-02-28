@@ -1,8 +1,0 @@
-uuid: e096d949-5eff-4914-adc9-cd02106ac39f
-langcode: en
-status: true
-dependencies: {  }
-name: 'News type'
-vid: news
-description: 'news related stuff'
-weight: -9

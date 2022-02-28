@@ -1,0 +1,23 @@
+uuid: 6c753e99-497d-4775-9adf-b71786842a09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured
+    - node.type.news
+id: node.news.field_featured
+field_name: field_featured
+entity_type: node
+bundle: news
+label: Featured
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
