@@ -1,0 +1,73 @@
+/**
+ * @file
+ * Bartik layout styling.
+ */
+
+/**
+ * Container
+ */
+.layout-container {
+  box-sizing: border-box;
+  max-width: 860px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media all and (min-width: 851px) {
+  .layout-container {
+    max-width: 1290px;
+  }
+}
+
+/**
+ * Main
+ */
+.layout-main-wrapper {
+  min-height: 300px;
+}
+.layout-main {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.columned {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-background {
+  background: #563160;
+  color: white;
+  padding: 0px 5px;
+}
+
+.node__title-16 {
+  background: #fe4500;
+}
+
+.teaser-big-title a {
+  color: white;
+  border-bottom: none;
+}
+
+.node--view-mode-teaser-big .node__title-21 {
+  position: absolute;
+  bottom: 44px;
+  background: none;
+  font-size: 24px;
+  padding-left: 28px;
+}
+
+.node__title-21 a {
+  color: white;
+}
+.node__title-21 a:hover,
+a:focus,
+.link:hover,
+.link:focus {
+  color: navajowhite;
+}
+
+.node__title a {
+  color: white;
+}
